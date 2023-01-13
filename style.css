@@ -12,17 +12,14 @@ body{
 /* section 1 start */
 main{
     display: flex;
-    justify-content: center;
-
-}
-.section1{
-
+    align-items: center;
+    flex-direction: column;
 }
 .top-player-container{
     background-color: white;
     width: 870px;
-    padding: 30px ;
-    
+    padding: 30px;
+    border-radius: 10px; 
 }
 .section-title{
     font-size: 24px;
@@ -78,4 +75,53 @@ article{
 }
 .art-title{
     padding-bottom: 10px;
+}
+/* course container style start */
+.course-container{
+    background-color: #ffffff;
+    width: 870px;
+    padding: 30px; 
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.cards-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.card-container{
+    padding: 10px;
+}
+.card{
+    box-shadow: 1px 1px 8px #808080;
+    border-radius: 10px;
+}
+.card img{
+    width: 224px;
+    height: 104px;
+}
+.author-name{
+    padding-top: 10px;
+    font-size: 15px;
+    color: #e9680c;
+}
+/* rating */
+.rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.star{
+    color: rgb(255, 191, 0);
+    font-size: 12px;
+}
+.time{
+    background-color: #ebafaf;
+    color: #c52c2c;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    width: 100px;
+    text-align: center;
 }
